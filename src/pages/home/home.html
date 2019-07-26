@@ -1,0 +1,302 @@
+<ion-header>
+    <ion-navbar>
+        <img ion-right src="assets/imgs/logo.png" class="navbarLogo"/>
+        <ion-title>Job Ticket Summary</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <h2>Job Time & Summary Form</h2>
+    <ion-list>
+
+        <ion-item>
+            <ion-label position="floating">Employee Name</ion-label>
+            <ion-input type="text" [(ngModel)]="data.fullName" placeholder="John Smith"></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label fixed>Employee #</ion-label>
+            <ion-input type="text" [(ngModel)]="data.employeeNumber" placeholder="1234567"></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label fixed>Employee Email</ion-label>
+            <ion-input type="email" [(ngModel)]="data.email"></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label position="floating">Job Date</ion-label>
+            <ion-datetime displayFormat="MM/DD/YYYY" min="1994-03-14" max="2040-12-09" [(ngModel)]="data.jDate"
+                          required></ion-datetime>
+        </ion-item>
+
+        <ion-item>
+            <ion-label position="floating">Job Number</ion-label>
+            <ion-input type="text" [(ngModel)]="data.jobNumber" required></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label>Call Type</ion-label>
+            <ion-select placeholder="Select One" required [(ngModel)]="data.callType">
+                <ion-option value="42 - Return to Office">42 - RETURN TO OFFICE</ion-option>
+                <ion-option value="AC - Air Conditioning">AC - AIR CONDITIONING</ion-option>
+                <ion-option value="ACI - A/C Inspection Promo">ACI - A/C INSPECTION PROMO</ion-option>
+                <ion-option value="ACP - A/C Premium Plan">ACP - A/C PREMIUM PLAN</ion-option>
+                <ion-option value="ARN - AC Revew Install">ARN - AC-RENEW INSTALL</ion-option>
+                <ion-option value="AT - Install Attic Tent">AT - INSTALL ATTIC TENT</ion-option>
+                <ion-option value="CKI - Check In">CKI - CHECK IN</ion-option>
+                <ion-option value="CL - Condensate Leak">CL - CONDENSATE LEAK</ion-option>
+                <ion-option value="CMD - Install Carb Monx De">CMD - INSTALL CARB MONX DE</ion-option>
+                <ion-option value="DLT - Duct Leakage Test">DLT - DUCT LEAKAGE TEST</ion-option>
+                <ion-option value="DSS - Dirty Sock Syndrome">DSS - DIRTY SOCK SYNDROME</ion-option>
+                <ion-option value="DVC - Dryer Vent Cleaning">DVC - DRYER VENT CLEANING</ion-option>
+                <ion-option value="EAC - Emergency A/C">EAC - EMERGENCY A/C</ion-option>
+                <ion-option value="EAP - Emergency AC Prem">EAP - EMERGENCEY AC PREM</ion-option>
+                <ion-option value="EHP - Emergency Heat Prem">EHP - EMERGENCY HEAT PREM</ion-option>
+                <ion-option value="EHT - Emergency Heat">EHT - EMERGENCY HEAT</ion-option>
+                <ion-option value="EXF - Exhaust Fan">EXF - EXHAUST FAN</ion-option>
+                <ion-option value="EZT - Install EZ Trap">EZT - INSTALL EZ TRAP</ion-option>
+                <ion-option value="FLO - Flood Inspection">FLO - FLOOD INSPECTION</ion-option>
+                <ion-option value="FM - Filter Media">FM - FILTER MEDIA</ion-option>
+                <ion-option value="FS - Install Flow Switch">FLO - INSTALL FLOAT SWITCH</ion-option>
+                <ion-option value="FU - Follow Up Appointment">FU - FOLLOW UP APPT</ion-option>
+                <ion-option value="HEA - Heat">HEA - HEAT</ion-option>
+                <ion-option value="HEP - Heat Premium Plan">HEP - HEAT PREMIUM PLAN</ion-option>
+                <ion-option value="INF - Info Only">INF - INFO ONLY</ion-option>
+                <ion-option value="INS - Inspection">INS - INSPECTION</ion-option>
+                <ion-option value="PR - Part Replacement">PR - PART REPLACEMENT</ion-option>
+                <ion-option value="PTU - Precision Tune-Up">PTU - PRECISION TUNE-UP</ion-option>
+                <ion-option value="RTR - Return to Repair">RTR - RETURN TO REPAIR</ion-option>
+                <ion-option value="STU - Start Up">STU - START UP</ion-option>
+                <ion-option value="SUB - Sub-Contractor">SUB - SUB-CONTRACTOR</ion-option>
+                <ion-option value="SW - Service Warranty">SW - SERVICE WARRANTY</ion-option>
+                <ion-option value="TST - Install T-Stat">TST - INSTALL T-STAT</ion-option>
+                <ion-option value="UV - Install UV Light">TST - INSTALL UV LIGHT</ion-option>
+                <ion-option value="WAR - Warranty">TST - WARRANTY</ion-option>
+            </ion-select>
+        </ion-item>
+
+        <!-- <ion-item>
+            <ion-label position="floating">Job Name</ion-label>
+            <ion-input type="text" [(ngModel)]="data.jobName" required></ion-input>
+        </ion-item> -->
+
+        <ion-item>
+            <ion-label position="floating">Customer Name</ion-label>
+            <ion-input type="text" [(ngModel)]="data.custName" placeholder="Jane Doe" required></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label position="floating">Customer Email</ion-label>
+            <ion-input type="email" [(ngModel)]="data.custEmail" required></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label position="floating">Customer Phone</ion-label>
+            <ion-input type="phone" [(ngModel)]="data.custPhone" required></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label position="floating">Customer Street</ion-label>
+            <ion-input type="text" [(ngModel)]="data.custStreet" required></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label position="floating">Customer City</ion-label>
+            <ion-input type="text" [(ngModel)]="data.custCity" required></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label>Customer State</ion-label>
+            <ion-select placeholder="Select One" required [(ngModel)]="data.custState">
+                <ion-option value="AL">Alabama</ion-option>
+                <ion-option value="GA">Georgia</ion-option>
+            </ion-select>
+        </ion-item>
+
+        <ion-item>
+            <ion-label position="floating">Customer Zip</ion-label>
+            <ion-input type="text" [(ngModel)]="data.custZip" required></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label position="floating">Job Description</ion-label>
+            <ion-textarea [(ngModel)]="data.jobDesc" placeholder="Enter more information here..."
+                          required></ion-textarea>
+        </ion-item>
+
+        <ion-item>
+            <ion-label>Review & Checkin Request</ion-label>
+            <ion-toggle color="kiwi" [(ngModel)]="data.review"></ion-toggle>
+        </ion-item>
+
+        <ion-item>
+            <ion-label>Product Recommendations</ion-label>
+            <ion-select [(ngModel)]="data.productReco" multiple="true">
+                <ion-option value="iaq" selected>Indoor Air Quality Products</ion-option>
+                <ion-option value="dehumidifier">Dehumidifier</ion-option>
+                <ion-option value="ductrepair">Duct Repair</ion-option>
+                <ion-option value="ductreplacement">Duct Replacement</ion-option>
+                <ion-option value="specialtyacsystem">Specialty Air Conditioning System</ion-option>
+                <ion-option value="tempcontdev">Temperature Control Device</ion-option>
+                <ion-option value="energyeffprod">Energy Efficient Products</ion-option>
+                <ion-option value="homeprosystem">Home Protection System</ion-option>
+            </ion-select>
+        </ion-item>
+
+        <!-- <div>{{productReco | json }}</div> -->
+
+        <!-- <ion-item>
+            <ion-label>Travel Time</ion-label>
+            <ion-select placeholder="Select One" required [(ngModel)]="data.travelTime">
+                <ion-option value="0">0</ion-option>
+                <ion-option value=".25">.25</ion-option>
+                <ion-option value=".50">.50</ion-option>
+                <ion-option value=".75">.75</ion-option>
+            </ion-select>
+        </ion-item>
+
+       <ion-item>
+            <ion-label position="floating">Odometer Reading</ion-label>
+            <ion-input type="number" [(ngModel)]="data.odometerReading"></ion-input>
+        </ion-item> -->
+
+        <ion-item>
+            <ion-label position="floating">Time In</ion-label>
+            <ion-datetime displayFormat="h:mm a" [(ngModel)]="data.timeIn"></ion-datetime>
+        </ion-item>
+
+        <ion-item>
+            <ion-label position="floating">Time Out</ion-label>
+            <ion-datetime displayFormat="h:mm a" [(ngModel)]="data.timeOut"></ion-datetime>
+        </ion-item>
+
+        <!-- <ion-item>
+            <ion-label position="floating">Worked Time (Reg)</ion-label>
+            <ion-input type="text" [(ngModel)]="data.worktimeReg"></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label position="floating">Worked Time (OT)</ion-label>
+            <ion-input type="text" [(ngModel)]="data.worktimeOT" required></ion-input>
+        </ion-item> -->
+
+        <ion-item>
+            <ion-label position="floating">Compensation</ion-label>
+            <ion-input type="text" [(ngModel)]="data.jobCompensation" required></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label>Turn Over</ion-label>
+            <ion-toggle color="kiwi" [(ngModel)]="data.review"></ion-toggle>
+        </ion-item>
+
+        <ion-item>
+            <ion-label position="floating">Turn Over to Whom</ion-label>
+            <ion-input type="text" [(ngModel)]="data.turnOverWhom" required></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label position="floating">Revenue Amount</ion-label>
+            <ion-input type="text" [(ngModel)]="data.revAmt" placeholder="$89.00" required></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label>Payment Method</ion-label>
+            <ion-select placeholder="Select One" required [(ngModel)]="data.paymentMethod">
+                <ion-option value="Cash">Cash</ion-option>
+                <ion-option value="Check">Check</ion-option>
+                <ion-option value="Credit">Credit</ion-option>
+                <ion-option value="Account">On Account</ion-option>
+                <ion-option value="Prepaid">Pre-Paid</ion-option>
+            </ion-select>
+        </ion-item>
+
+        <ion-item>
+            <ion-label>Customer Type</ion-label>
+            <ion-select placeholder="Select One" required [(ngModel)]="data.custType">
+                <ion-option value="ESA/MSA">ESA/MSA</ion-option>
+                <ion-option value="CMA">CMA</ion-option>
+                <ion-option value="T/M Res">T/M Res</ion-option>
+                <ion-option value="T/M Comm">T/M Comm</ion-option>
+            </ion-select>
+        </ion-item>
+
+        <ion-item>
+            <ion-label>Equipment Age</ion-label>
+            <ion-select placeholder="Select One" required [(ngModel)]="data.equipmentAge">
+                <ion-option value="0">0 Year Old</ion-option>
+                <ion-option value="1">1 Year Old</ion-option>
+                <ion-option value="2">2 Years Old</ion-option>
+                <ion-option value="3">3 Years Old</ion-option>
+                <ion-option value="4">4 Years Old</ion-option>
+                <ion-option value="5">5 Years Old</ion-option>
+                <ion-option value="6">6 Years Old</ion-option>
+                <ion-option value="7">7 Years Old</ion-option>
+                <ion-option value="8">8 Years Old</ion-option>
+                <ion-option value="9">9 Years Old</ion-option>
+                <ion-option value="10">10 Years Old</ion-option>
+                <ion-option value="10+">10+ Years Old</ion-option>
+            </ion-select>
+        </ion-item>
+
+        <ion-item>
+            <ion-label>Add to Agreement List</ion-label>
+            <ion-select placeholder="Select One" required [(ngModel)]="data.agreementList">
+                <ion-option value="Yes">Yes</ion-option>
+                <ion-option value="YR/MO">YR / MO</ion-option>
+                <ion-option value="No">No</ion-option>
+            </ion-select>
+        </ion-item>
+
+        <ion-item>
+            <ion-label>Estimate Sent</ion-label>
+            <ion-toggle color="kiwi" [(ngModel)]="data.estimateSent"></ion-toggle>
+        </ion-item>
+
+        <ion-item>
+            <ion-label>Estimate Recommendations</ion-label>
+            <ion-select [(ngModel)]="data.estimateReco" multiple="true">
+                <ion-option value="iaq" selected>Indoor Air Quality Products</ion-option>
+                <ion-option value="dehumidifier">Dehumidifier</ion-option>
+                <ion-option value="ductrepair">Duct Repair</ion-option>
+                <ion-option value="ductreplacement">Duct Replacement</ion-option>
+                <ion-option value="specialtyacsystem">Specialty Air Conditioning System</ion-option>
+                <ion-option value="tempcontdev">Temperature Control Device</ion-option>
+                <ion-option value="energyeffprod">Energy Efficient Products</ion-option>
+                <ion-option value="homeprosystem">Home Protection System</ion-option>
+            </ion-select>
+        </ion-item>
+
+        <ion-item>
+            <ion-label>Estimate Approved</ion-label>
+            <ion-toggle color="kiwi" [(ngModel)]="data.estimateApproved"></ion-toggle>
+        </ion-item>
+
+        <ion-item *ngIf="data.images && data.images.length && data.images.length > 0">
+            <ion-thumbnail *ngFor="let imgUrl of data.images">
+                <img [src]="imgUrl">
+            </ion-thumbnail>
+        </ion-item>
+        <ion-item *ngIf="selectedImages && selectedImages.length && selectedImages.length > 0">
+            <ion-thumbnail *ngFor="let imgUrl of selectedImages">
+                <img [src]="'data:image/png;base64,'+imgUrl">
+            </ion-thumbnail>
+        </ion-item>
+
+
+        <ion-grid>
+            <ion-row>
+              <ion-col col-6>
+                <button ion-button full color="secondary" (click)="pickImages()"><ion-icon name="cloud-upload"></ion-icon> Select Images</button>
+              </ion-col>
+              <ion-col col-6>
+                <button ion-button full color="secondary" (click)="openCamera()"><ion-icon name="camera"></ion-icon> Capture Image</button>
+              </ion-col>
+            </ion-row>
+          </ion-grid>        
+
+        <button ion-button block color="primary" (click)="sendData()">Send Info</button>
+
+    </ion-list>
+</ion-content>

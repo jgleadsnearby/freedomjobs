@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-navbar>
+    <img ion-right src="assets/imgs/logo.png" class="navbarLogo" />
+    <ion-title>My Account</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <form (ngSubmit)="updateUser()" [formGroup]="form">
+        <ion-list inset>
+
+            <ion-item [ngClass]="{ invalid: nameErrors.hasError('*', ['touched']) }">
+                <ion-input type="text" placeholder="Full Name" formControlName="name"></ion-input>
+            </ion-item>
+
+            <div ngxErrors="name" #nameErrors="ngxErrors">
+                <div [ngxError]="['name', 'required']" [when]="['touched']">It should be a valid name</div>
+            </div>
+
+            <ion-item [ngClass]="{ invalid: employeeErrors.hasError('*', ['touched']) }">
+                <ion-input type="text" placeholder="Employee Number" formControlName="employeeNumber"></ion-input>
+            </ion-item>
+
+            <div ngxErrors="employeeNumber" #employeeErrors="ngxErrors">
+                <div [ngxError]="['employeeNumber', 'required']" [when]="['touched']">It should be a valid employee Number</div>
+            </div>
+
+            <ion-item>
+                <ion-input type="text" placeholder="Email" [readonly]="true" formControlName="email"></ion-input>
+            </ion-item>
+
+        </ion-list>
+
+        <div padding-horizontal>
+            <div class="form-error">{{updateUserError}}</div>
+
+            <button ion-button full color="primary" type="submit" [disabled]="!form.valid">Update</button>
+        </div>
+    </form>
+
+    <div text-center style="padding-top: 20px">
+            <button ion-button icon-start full color="secondary" (click)="logout()" *ngIf="authProvider.authenticated">
+                <ion-icon name="log-out"></ion-icon>
+                Log out
+            </button>
+    </div>
+</ion-content>

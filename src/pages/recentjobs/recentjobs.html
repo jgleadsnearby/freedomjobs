@@ -1,0 +1,50 @@
+<!--
+  Generated template for the RecentjobsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Project Feed</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+    <ion-refresher (ionRefresh)="doRefresh($event)">
+        <ion-refresher-content></ion-refresher-content>
+      </ion-refresher> 
+
+    <ion-card *ngFor="let job of jobs">
+
+      <ion-item>
+        <ion-avatar item-start *ngIf="jobs.img; else defcon">
+          <img src="{{jobs.img}}">
+        </ion-avatar>
+        <ng-template #defcon>
+          <ion-avatar item-start>
+            <img src="assets/img/icon-1024.png">
+          </ion-avatar>
+        </ng-template>
+        <h2>{{job.custName}}</h2>
+      </ion-item>
+
+      <ion-grid>
+        <ion-row>
+          <ion-col *ngFor="let img of job.images">
+            <div>
+                <img src="{{ img }}" />
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+      <button ion-button block color="primary" (click)="viewJob()">View Job</button>
+    
+    </ion-card>
+
+</ion-content>

@@ -1,0 +1,38 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "ionic-plugin-keyboard": {
+      "PACKAGE_NAME": "com.leadsnearby.jacksons"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.leadsnearby.jacksons"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.leadsnearby.jacksons"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.leadsnearby.jacksons"
+    },
+    "cordova-plugin-ionic-webview": {
+      "ANDROID_SUPPORT_ANNOTATIONS_VERSION": "27.+",
+      "PACKAGE_NAME": "com.leadsnearby.jacksons"
+    },
+    "cordova-sqlite-storage": {
+      "PACKAGE_NAME": "com.leadsnearby.jacksons"
+    },
+    "cordova-plugin-telerik-imagepicker": {
+      "PACKAGE_NAME": "com.leadsnearby.jacksons"
+    },
+    "cordova-plugin-camera": {
+      "ANDROID_SUPPORT_V4_VERSION": "27.+",
+      "PACKAGE_NAME": "com.leadsnearby.jacksons"
+    }
+  },
+  "dependent_plugins": {}
+}

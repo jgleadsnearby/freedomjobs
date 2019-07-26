@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-navbar>
+    <img ion-right src="assets/imgs/logo.png" class="navbarLogo" />
+    <ion-title>Register</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <form (ngSubmit)="signup()" [formGroup]="form">
+    <ion-list inset>
+
+      <ion-item [ngClass]="{ invalid: nameErrors.hasError('*', ['touched']) }">
+        <ion-input type="text" placeholder="Full Name" formControlName="name"></ion-input>
+      </ion-item>
+
+      <div ngxErrors="name" #nameErrors="ngxErrors">
+        <div [ngxError]="['name', 'required']" [when]="['touched']">It should be a valid name</div>
+      </div>
+
+      <ion-item [ngClass]="{ invalid: employeeErrors.hasError('*', ['touched']) }">
+        <ion-input type="text" placeholder="Employee Number" formControlName="employeeNumber"></ion-input>
+      </ion-item>
+
+      <div ngxErrors="employeeNumber" #employeeErrors="ngxErrors">
+        <div [ngxError]="['employeeNumber', 'required']" [when]="['touched']">It should be a valid employee Number</div>
+      </div>
+
+      <ion-item [ngClass]="{ invalid: emailErrors.hasError('*', ['touched']) }">
+        <ion-input type="text" placeholder="Email" formControlName="email"></ion-input>
+      </ion-item>
+
+      <div ngxErrors="email" #emailErrors="ngxErrors">
+        <div [ngxError]="['email', 'required']" [when]="['touched']">It should be a valid email</div>
+      </div>
+
+      <ion-item [ngClass]="{ invalid: passwordErrors.hasError('*', ['touched']) }">
+        <ion-input type="password" placeholder="Password" formControlName="password"></ion-input>
+      </ion-item>
+
+      <div ngxErrors="password" #passwordErrors="ngxErrors">
+        <div [ngxError]="['minlength', 'required']" [when]="['touched']">It should be at least 6 characters</div>
+      </div>
+    </ion-list>
+
+    <div padding-horizontal>
+      <div class="form-error">{{signupError}}</div>
+
+      <button ion-button full type="submit" [disabled]="!form.valid">Sign up</button>
+    </div>
+  </form>
+</ion-content>

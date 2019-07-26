@@ -1,0 +1,21 @@
+.navbarLogo {
+  height: 40px;
+  float: left;
+  margin-left: 10px;
+}
+
+page-home {
+  ion-thumbnail {
+    float: left;
+    margin: 3px;
+    display: initial;
+
+    img {
+      display: initial;
+    }
+    
+  }
+  button ion-icon {
+    padding-right: 10px;
+  }
+}

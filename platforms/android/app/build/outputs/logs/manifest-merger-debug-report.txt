@@ -1,0 +1,208 @@
+-- Merging decision tree log ---
+provider#org.apache.cordova.camera.FileProvider
+INJECTED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:13:9-15:20
+	android:grantUriPermissions
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:13:92-126
+	android:authorities
+		INJECTED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:13:19-66
+	android:exported
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:13:67-91
+	android:name
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:13:127-180
+manifest
+ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/06b54345c8cb23a06d04a987ac6ce3be/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-v13:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/8fe4d15a589b385fd23970970e9fc59f/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/a34adea025499d0bde60cbf9f1e7ee73/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/2beaa09b8fc48bba50e682ad8cf6a31b/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/869c13dc8d0d25e5b943b1c135b5e222/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/829a29996ff2c88b3bf04aaea5d1c199/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/93b104d9808685d56883a9abe7f179aa/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ed98761d4d39b76360f8639b53a88fc6/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a4a6a6ded1fbe7cd5721811d72846b50/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/7f70722b7dce922c6c60ae66ea51b2d3/AndroidManifest.xml:17:1-31:12
+MERGED from [:CordovaLib] /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:1-27:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/352a0ce4cace0e6d85b3f92827466638/AndroidManifest.xml:17:1-30:12
+INJECTED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:2:1-19:12
+	package
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:2:98-132
+		INJECTED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:2:70-97
+		INJECTED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml
+	android:hardwareAccelerated
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:2:11-45
+	xmlns:android
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:2:133-191
+	android:versionCode
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:2:46-69
+		INJECTED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml
+supports-screens
+ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:3:5-191
+	android:largeScreens
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:3:49-76
+	android:smallScreens
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:3:132-159
+	android:normalScreens
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:3:77-105
+	android:xlargeScreens
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:3:160-188
+	android:resizeable
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:3:106-131
+	android:anyDensity
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:3:23-48
+uses-permission#android.permission.INTERNET
+ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:5:5-16:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/06b54345c8cb23a06d04a987ac6ce3be/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/06b54345c8cb23a06d04a987ac6ce3be/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v13:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/8fe4d15a589b385fd23970970e9fc59f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v13:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/8fe4d15a589b385fd23970970e9fc59f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/a34adea025499d0bde60cbf9f1e7ee73/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/a34adea025499d0bde60cbf9f1e7ee73/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/2beaa09b8fc48bba50e682ad8cf6a31b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/2beaa09b8fc48bba50e682ad8cf6a31b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/869c13dc8d0d25e5b943b1c135b5e222/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/869c13dc8d0d25e5b943b1c135b5e222/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/829a29996ff2c88b3bf04aaea5d1c199/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/829a29996ff2c88b3bf04aaea5d1c199/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/93b104d9808685d56883a9abe7f179aa/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/93b104d9808685d56883a9abe7f179aa/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ed98761d4d39b76360f8639b53a88fc6/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ed98761d4d39b76360f8639b53a88fc6/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a4a6a6ded1fbe7cd5721811d72846b50/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a4a6a6ded1fbe7cd5721811d72846b50/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/7f70722b7dce922c6c60ae66ea51b2d3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/7f70722b7dce922c6c60ae66ea51b2d3/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/352a0ce4cace0e6d85b3f92827466638/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/352a0ce4cace0e6d85b3f92827466638/AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:5:114-140
+	android:label
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:5:81-113
+	android:hardwareAccelerated
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:5:18-52
+	android:icon
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:5:53-80
+activity#com.leadsnearby.jacksons.MainActivity
+ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:6:9-11:20
+	android:label
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:6:97-134
+	android:launchMode
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:6:135-165
+	android:windowSoftInputMode
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:6:257-299
+	android:configChanges
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:6:19-96
+	android:theme
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:6:194-256
+	android:name
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:6:166-193
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:7:13-10:29
+	android:label
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:7:28-65
+action#android.intent.action.MAIN
+ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:8:17-69
+	android:name
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:8:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:9:17-77
+	android:name
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:9:27-74
+activity#com.synconset.MultiImageChooserActivity
+ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:12:9-160
+	android:label
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:12:19-57
+	android:theme
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:12:113-157
+	android:name
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:12:58-112
+uses-sdk
+ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:17:5-74
+INJECTED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:17:5-74
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/06b54345c8cb23a06d04a987ac6ce3be/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/06b54345c8cb23a06d04a987ac6ce3be/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v13:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/8fe4d15a589b385fd23970970e9fc59f/AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:support-v13:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/8fe4d15a589b385fd23970970e9fc59f/AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/a34adea025499d0bde60cbf9f1e7ee73/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/a34adea025499d0bde60cbf9f1e7ee73/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/2beaa09b8fc48bba50e682ad8cf6a31b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/2beaa09b8fc48bba50e682ad8cf6a31b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/869c13dc8d0d25e5b943b1c135b5e222/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/869c13dc8d0d25e5b943b1c135b5e222/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/829a29996ff2c88b3bf04aaea5d1c199/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/829a29996ff2c88b3bf04aaea5d1c199/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/93b104d9808685d56883a9abe7f179aa/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/93b104d9808685d56883a9abe7f179aa/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ed98761d4d39b76360f8639b53a88fc6/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ed98761d4d39b76360f8639b53a88fc6/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a4a6a6ded1fbe7cd5721811d72846b50/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a4a6a6ded1fbe7cd5721811d72846b50/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/7f70722b7dce922c6c60ae66ea51b2d3/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/7f70722b7dce922c6c60ae66ea51b2d3/AndroidManifest.xml:21:5-23:58
+MERGED from [:CordovaLib] /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/352a0ce4cace0e6d85b3f92827466638/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/352a0ce4cace0e6d85b3f92827466638/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:17:5-74
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/06b54345c8cb23a06d04a987ac6ce3be/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:17:42-71
+	android:minSdkVersion
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:17:15-41
+		INJECTED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:18:22-78
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:14:13-123
+	android:resource
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:14:75-120
+	android:name
+		ADDED from /Users/admin/Desktop/desktop/jackson-sons-app-master/platforms/android/app/src/main/AndroidManifest.xml:14:24-74
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/06b54345c8cb23a06d04a987ac6ce3be/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v13:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/8fe4d15a589b385fd23970970e9fc59f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v13:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/8fe4d15a589b385fd23970970e9fc59f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/a34adea025499d0bde60cbf9f1e7ee73/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/a34adea025499d0bde60cbf9f1e7ee73/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/2beaa09b8fc48bba50e682ad8cf6a31b/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/2beaa09b8fc48bba50e682ad8cf6a31b/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/869c13dc8d0d25e5b943b1c135b5e222/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/869c13dc8d0d25e5b943b1c135b5e222/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/829a29996ff2c88b3bf04aaea5d1c199/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/829a29996ff2c88b3bf04aaea5d1c199/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/93b104d9808685d56883a9abe7f179aa/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/93b104d9808685d56883a9abe7f179aa/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ed98761d4d39b76360f8639b53a88fc6/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ed98761d4d39b76360f8639b53a88fc6/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a4a6a6ded1fbe7cd5721811d72846b50/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/a4a6a6ded1fbe7cd5721811d72846b50/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/7f70722b7dce922c6c60ae66ea51b2d3/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/7f70722b7dce922c6c60ae66ea51b2d3/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/06b54345c8cb23a06d04a987ac6ce3be/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/06b54345c8cb23a06d04a987ac6ce3be/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/352a0ce4cace0e6d85b3f92827466638/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/352a0ce4cace0e6d85b3f92827466638/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/admin/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/352a0ce4cace0e6d85b3f92827466638/AndroidManifest.xml:26:13-58
