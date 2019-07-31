@@ -1,18 +1,144 @@
-<!--
-  Generated template for the RecentjobssinglePage page.
-
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
 <ion-header>
-
-  <ion-navbar>
-    <ion-title>recentjobssingle</ion-title>
-  </ion-navbar>
-
+    <ion-navbar>
+        <ion-title>Job Detail</ion-title>
+    </ion-navbar>
 </ion-header>
-
-
 <ion-content padding>
-
+    <ion-grid>
+        <ion-row>
+            <ion-col col-4><b>Billed Time :</b></ion-col>
+            <ion-col col-8>{{ job?.billedTime }}</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-4><b>CS Number :</b></ion-col>
+            <ion-col col-8>{{ job?.csNumber }}</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-4><b>Customer City :</b></ion-col>
+            <ion-col col-8>{{ job?.custCity }}</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-4><b>Customer Email :</b></ion-col>
+            <ion-col col-8>{{ job?.custEmail }}</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-4><b>Customer Name :</b></ion-col>
+            <ion-col col-8>{{ job?.custName }}</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-4><b>Customer Phone :</b></ion-col>
+            <ion-col col-8>{{ job?.custPhone }}</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-4><b>Customer State :</b></ion-col>
+            <ion-col col-8>{{ job?.custState }}</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-4><b>Customer Street :</b></ion-col>
+            <ion-col col-8>{{ job?.custStreet }}</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-4><b>Customer Type :</b></ion-col>
+            <ion-col col-8>{{ job?.custType }}</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-4><b>Customer Zip :</b></ion-col>
+            <ion-col col-8>{{ job?.custZip }}</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-4><b>Email :</b></ion-col>
+            <ion-col col-8>{{ job?.email }}</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-4><b>Employee Number :</b></ion-col>
+            <ion-col col-8>{{ job?.employeeNumber }}</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-4><b>Equipment Age :</b></ion-col>
+            <ion-col col-8>{{ job?.equipmentAge }}</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-4><b>EstimateApproved :</b></ion-col>
+            <ion-col col-8>{{ job?.estimateApproved ? 'Yes' : 'No' }}</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-4><b>Estimate Reco :</b></ion-col>
+            <ion-col col-8>{{ job?.estimateReco }}</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-4><b>Estimate Sent :</b></ion-col>
+            <ion-col col-8>{{ job?.estimateSent ? 'Yes' : 'No' }}</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-4><b>Full Name :</b></ion-col>
+            <ion-col col-8>{{ job?.fullName }}</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-4><b>Invest In ESA :</b></ion-col>
+            <ion-col col-8>{{ job?.investInESA }}</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-4><b>Date :</b></ion-col>
+            <ion-col col-8>{{ job?.jDate }}</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-4><b>Job Amount :</b></ion-col>
+            <ion-col col-8>{{ job?.jobAmt }}</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-4><b>Job Description :</b></ion-col>
+            <ion-col col-8>{{ job?.jobDesc }}</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-4><b>Job Name :</b></ion-col>
+            <ion-col col-8>{{ job?.jobName }}</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-4><b>Odometer Reading :</b></ion-col>
+            <ion-col col-8>{{ job?.odometerReading }}</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-4><b>Payment Method :</b></ion-col>
+            <ion-col col-8>{{ job?.paymentMethod }}</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-4><b>Prob Code :</b></ion-col>
+            <ion-col col-8>{{ job?.probCode }}</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-4><b>Product Record :</b></ion-col>
+            <ion-col col-8>{{ job?.productReco.join(', ') }}</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-4><b>Review :</b></ion-col>
+            <ion-col col-8>{{ job?.review }}</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-4><b>Time In :</b></ion-col>
+            <ion-col col-8>{{ job?.timeIn }}</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-4><b>Time Out :</b></ion-col>
+            <ion-col col-8>{{ job?.timeOut }}</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-4><b>Travel Time :</b></ion-col>
+            <ion-col col-8>{{ job?.travelTime }}</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-4><b>Worktime OT :</b></ion-col>
+            <ion-col col-8>{{ job?.worktimeOT }}</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-4><b>worktime Reg :</b></ion-col>
+            <ion-col col-8>{{ job?.worktimeReg }}</ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col *ngFor="let img of job?.images">
+                <div>
+                    <img src="{{ img }}"/>
+                </div>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
 </ion-content>

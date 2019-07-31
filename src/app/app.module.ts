@@ -25,6 +25,7 @@ import { AuthProvider } from '../providers/auth/auth';
 import { NgxErrorsModule } from '@ultimate/ngxerrors';
 import { ImagePicker } from "@ionic-native/image-picker";
 import { Camera } from "@ionic-native/camera";
+import { RecentjobssinglePage } from "../pages/recentjobssingle/recentjobssingle";
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { Camera } from "@ionic-native/camera";
     ContactPage,
     HomePage,
     RecentJobs,
+    RecentjobssinglePage,
     TabsPage
   ],
   imports: [
@@ -58,6 +60,7 @@ import { Camera } from "@ionic-native/camera";
     ContactPage,
     HomePage,
     RecentJobs,
+    RecentjobssinglePage,
     TabsPage
   ],
   providers: [

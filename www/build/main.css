@@ -30558,6 +30558,10 @@ page-home button ion-icon {
   padding-right: 10px;
 }
 
+page-recentjobssingle ion-row {
+  border-bottom: 1px solid gray;
+}
+
 .passwordIcon {
   font-size: 2rem !important;
 }
