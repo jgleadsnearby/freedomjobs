@@ -14,7 +14,7 @@ export class FirebaseJobsData {
 
     load(): any {
         let timeStamp = +new Date();
-        return this.http.get('https://servicepal-5941e.firebaseio.com/jobs.json?tsp=' + timeStamp,);  
+        return this.http.get('https://freedomjobs-396a3.firebaseio.com/jobs.json?tsp=' + timeStamp,);
     }    
 
     getJobs() {

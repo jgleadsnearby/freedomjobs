@@ -27,9 +27,8 @@ export class HomePage {
         'employeeNumber': '',
         'email': '',
         'jDate': '',
-        'csNumber': '',
-        'probCode': '',
-        //'jobName': '',
+        'jobNumber': '',
+        'callType': '',
         'custName': '',
         'custEmail': '',
         'custPhone': '',
@@ -38,26 +37,23 @@ export class HomePage {
         'custState': '',
         'custZip': '',
         'jobDesc': '',
-        'review': '',
-        //'travelTime': '',
+        'review': true,
         'timeIn': '',
-        //'odometerReading': '',
         'timeOut': '',
-        //'worktimeReg': '',
-        //'worktimeOT': '',
         'jobCompensation': '',
+        'turnOver': true,
+        'turnOverWhom': '',
         'revAmt': '',
         'paymentMethod': '',
         'custType': '',
         'equipmentAge': '',
         'agreementList': '',
-        'estimateSent': '',
+        'estimateSent': true,
         'estimateReco': '',
-        'estimateApproved': '',
+        'estimateApproved': true,
         'productReco': '',
         'images': '',
     };
-
     selectedImages = [];
     selectedImageFiles = [];
     currentuid;
@@ -75,7 +71,8 @@ export class HomePage {
 
     ionViewWillEnter() {
         this.currentuid = firebase.auth().currentUser.uid;
-        this.loadJobData();
+        this.loadUserData();
+        // this.loadJobData();
     }
 
     loadJobData() {
@@ -177,7 +174,47 @@ export class HomePage {
                 return res;
             })
             .finally(async () => {
-                await this.authProvider.updateJobs(this.data);
+                console.log('final fire store:', this.data)
+                await this.authProvider.addJobs(this.data).then((res) => {
+                    this.data = {
+                        'fullName': '',
+                        'employeeNumber': '',
+                        'email': '',
+                        'jDate': '',
+                        'jobNumber': '',
+                        'callType': '',
+                        'custName': '',
+                        'custEmail': '',
+                        'custPhone': '',
+                        'custStreet': '',
+                        'custCity': '',
+                        'custState': '',
+                        'custZip': '',
+                        'jobDesc': '',
+                        'review': true,
+                        'timeIn': '',
+                        'timeOut': '',
+                        'jobCompensation': '',
+                        'turnOver': true,
+                        'turnOverWhom': '',
+                        'revAmt': '',
+                        'paymentMethod': '',
+                        'custType': '',
+                        'equipmentAge': '',
+                        'agreementList': '',
+                        'estimateSent': true,
+                        'estimateReco': '',
+                        'estimateApproved': true,
+                        'productReco': '',
+                        'images': '',
+                    };
+                    this.selectedImages = [];
+                    this.selectedImageFiles = [];
+                    this.presentToast('Job create successfully');
+                    this.loadUserData();
+                }).catch((err) => {
+                    console.log(err);
+                });
                 this.hideLoader();
             })
             .catch(this.handleError);

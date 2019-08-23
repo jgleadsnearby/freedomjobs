@@ -20,7 +20,7 @@ export class RecentJobs {
     ) {
     }
 
-    ionViewDidLoad() {
+    ionViewWillEnter() {
         console.log('ionViewDidLoad RecentjobsPage');
         this.updateJobs();
     }

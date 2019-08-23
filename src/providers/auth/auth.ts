@@ -87,6 +87,16 @@ export class AuthProvider {
         });
     }
 
+    addJobs(data) {
+        return new Promise((resolve, reject) => {
+            this.jobsRef.push(data).then(() => {
+                resolve({success: true});
+            }).catch((err) => {
+                reject(err);
+            })
+        });
+    }
+
     updateJobs(data) {
         return new Promise((resolve, reject) => {
             this.jobsRef.child(firebase.auth().currentUser.uid).set(data).then(() => {
